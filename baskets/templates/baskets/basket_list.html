@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% load static from staticfiles %}
+
+{% block title %}List{% endblock %}
+
+{% block content %}
+    <div class="container-fluid">
+        <div class="row container-fluid">
+            {% for basket in baskets %}
+                <div class="card col-lg-4 col-md-6 col-sm-8 container-fluid" style="width: 20rem;">
+                    <img class="card-img-top" src="http://coloringhub.com/wp-content/uploads/2014/01/basket-fruit.jpg" alt="Card image cap">
+                    <div class="card-block">
+                        <h4 class="card-title">{{ basket.title }}</h4>
+                        <p class="card-text">{{ basket.description }}</p>
+                        <a href="#" class="btn btn-primary">Details</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}
