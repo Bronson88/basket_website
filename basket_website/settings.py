@@ -23,7 +23,7 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 SECRET_KEY = '&1te7x2gz*5rrf(%g+$umbuv_9jc^facq_jq7+_6$bq9q-@@a4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['baskets-by-lila.herokuapp.com']
 
