@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'basket_website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'd3j6l8s09dlfm4',
         'USER': 'fsfouqoxlzjput',
         'PASSWORD': '44ff7f043f2fe9fc2678f73400c465200e8572b2ba043b95b13265238579300c',
