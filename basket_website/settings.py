@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'basket_website.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd3j6l8s09dlfm4',
+        'USER': 'fsfouqoxlzjput',
+        'PASSWORD': '44ff7f043f2fe9fc2678f73400c465200e8572b2ba043b95b13265238579300c',
+        'HOST': 'ec2-54-235-248-197.compute-1.amazonaws.com',
+        'PORT': '5432',
+
     }
 }
 
