@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcb8e1ae-c36b-43a8-a7af-fd37faec31b6" name="Default" comment="update to database&#10;">
+    <list default="true" id="bcb8e1ae-c36b-43a8-a7af-fd37faec31b6" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/css/layout.css" afterPath="$PROJECT_DIR$/static/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basket_website/settings.py" afterPath="$PROJECT_DIR$/basket_website/settings.py" />
     </list>
     <ignored path="basket_website.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basket_website/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+            <state relative-caret-position="-347">
+              <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
         </entry>
       </file>
       <file leaf-file-name="layout.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+        <entry file="file://$PROJECT_DIR$/static/css/layout.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -519,7 +519,14 @@
       <option name="project" value="LOCAL" />
       <updated>1486194869799</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="debug fix&#10;">
+      <created>1486195628690</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486195628690</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -579,7 +586,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update to database&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="update to database&#10;" />
+    <MESSAGE value="debug fix&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug fix&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -618,7 +626,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -658,7 +666,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -690,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -722,7 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -754,7 +762,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -916,7 +924,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/static/css/layout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -976,8 +984,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/basket_website/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+        <state relative-caret-position="-347">
+          <caret line="47" column="62" selection-start-line="47" selection-start-column="62" selection-end-line="47" selection-end-column="62" />
           <folding />
         </state>
       </provider>
